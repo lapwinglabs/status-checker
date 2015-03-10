@@ -1,6 +1,6 @@
 # Status Checker
 
-Makes a requests and based on responsed executes UNIX command
+Makes a http request and based on response executes UNIX command
 
 ### How to Use
 
