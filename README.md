@@ -1,2 +1,1 @@
-# status-checker
-check website and rebuild if necessary
+# andypai.me
