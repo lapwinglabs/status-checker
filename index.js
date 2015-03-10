@@ -28,8 +28,8 @@ function makeRequest(url, cb){
   console.log('making request', url);
   request
     .get(url)
-    .end(function(res){
-      if(!res.ok) {
+    .end(function(err, res){
+      if(err) {
         console.log('There was an error! Running command');
         cb()
       }
